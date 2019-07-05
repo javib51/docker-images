@@ -16,5 +16,3 @@ RUN wget https://repo1.maven.org/maven2/org/flywaydb/flyway-commandline/${FLYWAY
   && mv flyway-${FLYWAY_VERSION}/* . \
   && rm flyway-commandline-${FLYWAY_VERSION}.tar.gz
 
-ENTRYPOINT ["/flyway/flyway"]
-CMD ["-?"]
