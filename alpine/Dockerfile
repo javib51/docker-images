@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-RUN apk --no-cache add --update bash openssl
+RUN apk --no-cache add --update bash openssl git
 
 # Add the flyway user and step in the directory
 RUN adduser -S -h /flyway -D flyway
