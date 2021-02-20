@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:17-jdk-alpine3.13
 
 RUN apk --no-cache add --update bash openssl git
 
