@@ -1,6 +1,6 @@
 FROM openjdk:17-jdk-alpine3.13
 
-RUN apk --no-cache add --update bash openssl git
+RUN apk --no-cache add --update bash openssl git docker
 
 # Add the flyway user and step in the directory
 RUN adduser -S -h /flyway -D flyway
